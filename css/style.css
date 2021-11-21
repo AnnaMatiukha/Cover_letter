@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    background-color: #f5f7fa;
+    padding: 40px;
+    font-size: 14px;
+    letter-spacing: 0.42px;
+}
+
+.wrapper {
+    background: #ffffff;
+    display: flex;
+    box-shadow: 4px 4px 20px 2px rgba(0, 0, 0, 0.15);
+    margin: 0 auto;
+    max-width: 800px;
+	position: relative;
+}
+
+.sidebar-conteiner {
+	display: block;
+    padding: 30px 30px;
+	background: #a8a8a8;
+	width: 800px;
+	position: absolute;
+	text-align: center;
+}
+
+.sidebar-heading {
+	font-size: 35px;
+	padding-bottom: 25px;
+}
+
+.link-sidebar {
+	color: #000000;
+}
+
+.link-sidebar:after {
+	display: block;
+	float: left;
+    content: "";
+    height: 1px;
+    width: 0%;
+    transition: width 0.4s ease-in-out;
+}
+
+.about-me-conteiner {
+    padding-top: 120px;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-bottom: 35px;
+	background: #ffffff;
+	width: 800px;
+}
